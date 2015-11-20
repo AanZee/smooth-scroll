@@ -1,0 +1,26 @@
+{
+  "name": "smooth-scroll",
+  "main": "smooth-scroll.js",
+  "homepage": "https://github.com/AanZee/smooth-scroll",
+  "authors": [
+    "Jeroen Ransijn <jeroen@aanzee.nl>"
+  ],
+  "description": "Enable smooth scrolling to the href anchor on the element.",
+  "moduleType": [
+    "amd",
+    "es6",
+    "globals"
+  ],
+  "keywords": [
+    "smooth",
+    "scroll"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
