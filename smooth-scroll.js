@@ -178,7 +178,7 @@
 		function handler (e) {
 			var href = this.getAttribute('href'), linkedElement;
 
-			if (href.substring(0,1) === '#' && this.dataset.smoothScroll !== 'ignore') {
+			if (href && href.substring(0,1) === '#' && this.dataset.smoothScroll !== 'ignore') {
 				linkedElement = document.getElementById(href.substr(1));
 
 				if (linkedElement) {
